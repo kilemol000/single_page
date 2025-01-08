@@ -32,3 +32,20 @@ body {
 .item:hover {
     color: blue;
 }
+
+.search {
+    margin-left: 50px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 426px;
+}
+
+.search::placeholder {
+    color: white;
+}
+search:Vector (3).png{
+    front-size: 20px
+
+}
