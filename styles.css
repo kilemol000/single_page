@@ -70,3 +70,7 @@ body {
     align-items: center;
     gap: 16px;
 }
+.icons-container {
+    width: 1440px;
+    height: 946px;
+}
