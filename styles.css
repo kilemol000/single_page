@@ -7,9 +7,16 @@ body {
 .header {
     height: 86px;
     display: flex;
+    justify-content: space-between;
     padding: 42px 28px;
     align-items: center;
     color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -18,6 +25,8 @@ body {
 }
 
 .item {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     margin-left: 61px;
     font-family: Cabinet Grotesk, sans-serif;
@@ -33,22 +42,31 @@ body {
     color: blue;
 }
 
-.search {
+.search-input {
     margin-left: 50px;
     background: transparent;
     color: white;
     border: none;
     border-bottom: 2px solid white;
-    width: 353px;
+    width: 264px;
     height: 20px;
+    padding: 8px;
 }
 
-.search::placeholder {
+.search-input::placeholder {
     color: white;
 }
 
 .search-icon {
+    padding: 8px;
     width: 20px;
     height: 20px;
     border-bottom: 2px solid white;
+}
+
+.icons-container {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
