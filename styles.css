@@ -75,25 +75,31 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+
+}
+.background-image{
+    position: relative;
+    z-index: -1;
 }
  .back.png{
      display: block;
  }
 .back-image {
-    width: 100%;
     height: auto;
     overflow: hidden;
     display: inline-block;
+    position: relative;
 }
 .colored-square1 {
     width: 300px;
     height: 300px;
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
-    top: 90%;
-    left: 10%;
+    bottom: 0;
+    left: 0;
     color: white;
     font-family: "Cabinet Grotesk", sans-serif;
+
 }
 .rounded-button {
     width: 300px;
