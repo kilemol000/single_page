@@ -121,7 +121,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     bottom: 70px;
-    left: 90px;
+    left: 150px;
     color: white;
     font-family: "Cabinet Grotesk", sans-serif;
 }
@@ -154,7 +154,6 @@ body {
     justify-content: center;
     gap: 10px;
     color: #010B3180;
-
 }
 
 .content {
@@ -197,11 +196,11 @@ body {
 }
 .rounded-button1 {
     position: absolute;
-    width: 480px;
+    width: 350px;
     height: 60px;
     display: block;
     bottom: 30px;
-    word-spacing: 260px;
+    word-spacing: 150px;
     border: 2px solid transparent;
 }
 .top-right {
@@ -287,8 +286,65 @@ body {
     align-items: center;
     justify-content: center;
 }
-.four-square{
+.content-two-square{
     display: flex;
     gap: 30px;
 }
-
+.content-color-two-square{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.blue-square{
+    position: relative;
+    background-color: #315AFF;
+    top: 230px;
+    left: 40px;
+    width: 670px;
+    height: 528px;
+    display: flex;
+    font-size: 24px;
+    border: none;
+    border-radius: 27px;
+}
+.text-blue-square{
+    position: relative;
+    top: 5px;
+    font-family: Cabinet Grotesk, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 100px;
+    left: 37px;
+    color:#FFFFFF;
+}
+.text-blue-square1{
+    position: relative;
+    top: 75px;
+    left: 7px;
+    font-family: Cabinet Grotesk, sans-serif;
+    font-size: 60px;
+    font-weight: 750;
+    color:#FFFFFF;
+}
+.left-blue-part{
+    color: #FFFFFF;
+    font-size: 26px;
+}
+.right-blue-part{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.big-gray-square{
+    position: relative;
+    width: 100%;
+    height: 906px;
+    background-color:  #EDF2F3;
+    top: 350px;
+}
+.product{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
