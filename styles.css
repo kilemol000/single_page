@@ -339,12 +339,40 @@ body {
 }
 .big-gray-square{
     position: relative;
-    width: 100%;
-    height: 906px;
+    width: 1440px;
+    height: 940px;
     background-color:  #EDF2F3;
     top: 350px;
 }
 .product{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    position: relative;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.text-up{
+    position: relative;
+    color: #315AFF;
+    font-size: 26px;
+    front-family: Cabinet Grotesk, sans-serif;
+    top: 20px;
+}
+.product-square{
+    position: relative;
+    width: 450px;
+    height: 560px;
+    background-color: red;
+    bottom: 700px;
+    left: 720px;
+    border: none;
+    border-radius: 30px;
+}
+.product-square1{
+    position: relative;
+    width: 445px;
+    height: 525px;
+    background-color: #D19D9D9;
+    bottom: 1220px;
+    left: 725px;
+    border: none;
+    border-radius: 30px;
 }
