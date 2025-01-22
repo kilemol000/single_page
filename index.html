@@ -285,9 +285,40 @@
         <div class="big-gray-square">
             <div class="text-up"> best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best pr </div>
             <img class="product" src="images/Frame 181.png" alt="">
-            <div class="text-up"> best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best pr </div>
             <div class="product-square"></div>
-            <div class="product-square1"></div>
+            <div class="product-item">
+                <div class="texttop-productitem">Urban Edge Jacket</div>
+                <div class="textdown-productitem">This jacket combines durability with a modern, edgy look.<br> Featuring a classic fit with contemporary details, it's perfect for layering and adding a cool, casual vibe to any outfit.</div>
+            </div> <!--Как сместить текст влево-->
+            <div class="scroll-item">
+                <div class="left-item">
+                <div class="progress-item"></div>
+                <div class="progress-item"></div>
+                <div class="progress-item"></div>
+                <div class="progress-item"></div>
+                <div class="progress-item"></div>
+                </div>
+                <div class="right-item">
+                <button class="arrow-button" id="prev-button"><svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 21L1 11L11 1" stroke="#010B31" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </button>
+                <button class="arrow-button" id="next-button"><svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L11 11L1 21" stroke="#010B31" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </button>
+                </div>
+            </div>
+            <div class="text-up"> best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best product&nbsp; &nbsp; + &nbsp;&nbsp; best pr </div>
+        </div>
+    </div>     <!--Нужно добавить SVG для стрелочки в анимации-->
+    <div class="brand-block">
+        <div class="name-block"> WE ARE SUPPORTED BE </div>
+        <div class="brand4square">
+            <div class="brand-square"></div>
+            <div class="brand-square"></div>
+            <div class="brand-square"></div>
+            <div class="brand-square"></div>
         </div>
     </div>
 </section>
@@ -321,6 +352,45 @@
             header.style.backgroundColor = 'lightblue';
         }
     });
+
+    // Получаем все полоски и кнопки
+    const progressItems = document.querySelectorAll(".progress-item");
+    const prevButton = document.getElementById("prev-button");
+    const nextButton = document.getElementById("next-button");
+
+    // Начальная активная полоска
+    let currentIndex = 0;
+
+    // Обновление состояния полосок
+    function updateProgressBar() {
+        progressItems.forEach((item, index) => {
+            if (index <= currentIndex) {
+                item.classList.add("active");
+            } else {
+                item.classList.remove("active");
+            }
+        });
+    }
+
+    // Обработчик для кнопки "Назад"
+    prevButton.addEventListener("click", () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateProgressBar();
+        }
+    });
+
+    // Обработчик для кнопки "Вперед"
+    nextButton.addEventListener("click", () => {
+        if (currentIndex < progressItems.length - 1) {
+            currentIndex++;
+            updateProgressBar();
+        }
+    });
+
+    // Инициализация начального состояния
+    updateProgressBar();
+
 </script>
 </body>
 </html>
