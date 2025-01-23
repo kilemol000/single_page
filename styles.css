@@ -448,11 +448,12 @@ body {
 .brand-block{
     width: 1360px;
     height: 658px;
-    background-color: red;
     position: relative;
     display: flex;
     top: 500px;
     left: 40px;
+    flex-direction: column;
+    padding: 40px;
 }
 .name-block{
     display: flex;
@@ -460,16 +461,56 @@ body {
     font-size: 60px;
     font-weight: 700;
     color: #010B31;
+    margin-bottom: 40px;
 }
 .brand4square{
-
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
 }
 .brand-square{
     width: 317px;
     height: 235px;
     background-color: #EEF3F4;
     display: flex;
-    top: 80px;
-    position: absolute;
+    position: relative;
     justify-content: center;
+    align-items: center;
+}
+.brand3square{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    gap: 30px;
+    top: 260px;
+    justify-content: space-between;
+}
+.brand-square1{
+    width: 433px;
+    height: 235px;
+    background-color: #EEF3F4;
+    display: flex;
+    top: 150px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.brand-square:nth-child(4) {
+    background-color: #315AFF;
+}
+.product-categories{
+    position: relative;
+    width: 1440px;
+    height: 701px;
+    background-color: #EEF3F4;
+    top: 590px;
+}
+.leftbutton{
+    width: 76px;
+    height: 76px;
+    border-radius: 100%;
+    background-color: #315AFF;
+    margin-top: 325px;
 }
