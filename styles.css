@@ -506,11 +506,105 @@ body {
     height: 701px;
     background-color: #EEF3F4;
     top: 590px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
 .leftbutton{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
     width: 76px;
     height: 76px;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #315AFF;
-    margin-top: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.rightbutton{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #315AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.gray-item-square{
+    position: absolute;
+    width: 221px;
+    height: 471px;
+    background-color: #D9D9D9;
+    top: 106px;
+    left: 224px;
+}
+.shadow-square{
+    position: absolute;
+    width: 197px;
+    height: 41px;
+    top: 606px;
+    left: 255px;
+    background-color: #b4b4b4;
+    filter: blur(25px);
+}
+.item-look-square{
+    position: absolute;
+    width: 668px;
+    height: 570px;
+    background-color: #FDFDFD;
+    top: 55px;
+    left: 633px;
+}
+.text-item{
+    width: 620px;
+    height: 36px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-family: Cabinet Grotesk,sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.item-look{
+    position: relative;
+    width: 620px;
+    height: 124px;
+    left: 24px;
+    top: 94px;
+    background-color: blue;
+}
+.itemsquare{
+    width: 113px;
+    height: 113px;
+    top: 6px;
+    position: relative;
+    left: 5px;
+    background-color: #D9D9D9;
+}
+.textitem{
+    position: relative;
+    left: 159px;
+    bottom: 110px;
+    font-family: Cabinet Grotesk,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.textitem1{
+    position: absolute;
+    right: 5px;
+    bottom: 95px;
+    font-family: Cabinet Grotesk,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
 }
