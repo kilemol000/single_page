@@ -527,7 +527,7 @@ body {
 .rightbutton{
     position: absolute;
     top: 50%;
-    right: 40px;
+    left: 1324px;
     transform: translateY(-50%);
     width: 76px;
     height: 76px;
@@ -662,7 +662,6 @@ body {
 .textitem2{
     position: relative;
     left: 159px;
-    bottom: px;
     font-family: Cabinet Grotesk,sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -702,6 +701,14 @@ body {
     height: 27.71px;
     border-radius: 100%;
     background-color: #EF6DF8;
+}
+.backgroundfooter{
+    width: 1440px;
+    height: 625px;
+    background-color: #315AFF;
+    overflow: hidden;
+    position: relative;
+    top: 590px;
 }
 
 
