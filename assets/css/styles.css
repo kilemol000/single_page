@@ -16,6 +16,7 @@ body {
     color: #fff;
     width: 100%;
     text-align: justify;
+    font-family: "Cabinet Grotesk", sans-serif;
 }
 
 .navbar {
@@ -186,6 +187,11 @@ body {
     justify-content: center;
     place-items: center;
 }
+.text-square{
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
 
 .little-square {
     position: absolute;
@@ -202,12 +208,28 @@ body {
 
 .rounded-button1 {
     position: absolute;
-    width: 350px;
-    height: 60px;
-    display: block;
-    bottom: 30px;
-    word-spacing: 150px;
+    width: 423px;
+    height: 57px;
+    display: flex;
+    top: 469px;
+    bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
     border: 2px solid transparent;
+}
+.textbutton{
+    display: flex;
+    margin-top: 13px;
+    bottom: 13px;
+    font-family: Cabinet Grotesk, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.arrowbutton1{
+    position: relative;
+    width: 52px;
+    height: 57px;
+    left: 190px;
 }
 
 .top-right {
@@ -374,6 +396,8 @@ body {
     position: relative;
     margin-top: 50px;
     object-fit: cover;
+    width: 100%;
+    display: flex;
 }
 
 .text-up {
@@ -774,9 +798,9 @@ body {
 
 .backgroundfooter {
     overflow: hidden;
-    position: absolute;
-    top: 5766px;
-    width: 100%;
+    position: relative;
+    top: 590px;
+    width: 1440px;
     height: 625px;
 }
 
@@ -841,8 +865,8 @@ body {
     .navbar {
         gap: 20px;
         padding: 15px 20px;
+        width: ;
     }
-
     .item {
         margin-left: 20px;
     }
@@ -855,12 +879,22 @@ body {
         margin-left: 20px;
         width: 240px;
     }
+    .rounded-button1{
+        width: 210px;
+    }
+    .arrowbutton1{
+        left: 70px;
+    }
+    .invisible-square{
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .navbar {
         gap: 10px;
         padding: 7px 10px;
+        width: px;
     }
 
     .item {
@@ -874,6 +908,18 @@ body {
     .search-input {
         margin-left: 10px;
         width: 160px;
+    }
+    .rounded-button1{
+        width: 105px;
+    }
+    .arrowbutton1{
+        left: 0;
+    }
+    .text-right-bord{
+        right: 10px;
+    }
+    .invisible-square{
+        width: 300px;
     }
 }
 
