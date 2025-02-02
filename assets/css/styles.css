@@ -394,7 +394,7 @@ body {
 
 .product {
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
     object-fit: cover;
     width: 100%;
     display: flex;
@@ -840,7 +840,7 @@ body {
     position: absolute;
     width: 229px;
     height: 224px;
-    top: 89px;
+    top: 70px;
     left: 309px;
 }
 
@@ -848,7 +848,7 @@ body {
     position: absolute;
     width: 484px;
     height: 228px;
-    top: 89px;
+    top: 70px;
     left: 916px;
 }
 
@@ -858,7 +858,20 @@ body {
     font-weight: 500;
     color: #FFFFFF;
     display: flex;
-    margin-bottom: 10px;
+}
+.secondtextcolum{
+    font-family: anton, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 90px;
+}
+.arrowcolum{
+    position: absolute;
+    display: flex;
+    margin-left: 400px;
+    top: 220px;
 }
 
 @media screen and (max-width: 1374px) {
