@@ -53,12 +53,11 @@ body {
 }
 
 .tab {
+    font-family: "CabinetGrotesk-Medium", sans-serif;
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-family: Cabinet Grotesk, sans-serif;
     font-size: 16px;
-    font-weight: 800;
     line-height: 19px;
     text-align: left;
     text-underline-position: from-font;
@@ -878,7 +877,6 @@ body {
     .navbar {
         gap: 20px;
         padding: 15px 20px;
-        width: ;
     }
     .item {
         margin-left: 20px;
@@ -907,7 +905,6 @@ body {
     .navbar {
         gap: 10px;
         padding: 7px 10px;
-        width: px;
     }
 
     .item {
@@ -933,6 +930,27 @@ body {
     }
     .invisible-square{
         width: 300px;
+    }
+}
+
+@media screen and  (max-width: 480px) {
+    .header {
+        height: 45px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .colored-square1 {
+        font-size: 10px;
+        height: 115px;
+        bottom: 40px;
+        left: 20px;
+    }
+
+    .rounded-button {
+        margin-top: 15px;
     }
 }
 
