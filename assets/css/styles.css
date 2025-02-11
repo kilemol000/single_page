@@ -872,8 +872,8 @@ body {
     position: relative;
     width: 184px;
     height: 227px;
-    top: 870px;
-    left: 57px;
+    top: 765px;
+    left: 44px;
 }
 
 .column {
@@ -905,16 +905,16 @@ body {
     position: relative;
     width: 229px;
     height: 224px;
-    top: 641px;
-    left: 432px;
+    top: 533px;
+    left: 325px;
 }
 
 .third-column {
     position: relative;
     width: 484px;
     height: 228px;
-    top: 414px;
-    left: 916px;
+    top: 306px;
+    left: 964px;
 }
 
 .bigtextcolumn1 {
@@ -939,6 +939,7 @@ body {
     bottom: 38px;
     width: 40px;
     height: 40px;
+    left: 70px;
 }
 
 @media screen and (max-width: 1374px) {
@@ -967,6 +968,24 @@ body {
     .invisible-square{
         width: 350px;
     }
+    .backgroundfooter svg{
+        width: 1447px;
+    }
+    .first-column{
+        top: 746px;
+        left: 41px;
+    }
+    .second-column{
+        top: 511px;
+        left: 308px;
+    }
+    .third-column{
+        top: 285px;
+        left: 944px;
+    }
+    .arrowcolum{
+        left: 35px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -987,6 +1006,10 @@ body {
         margin-left: 10px;
         width: 160px;
     }
+    .colored-square1{
+        bottom: 265px;
+        left: 102px;
+    }
     .rounded-button1{
         width: 105px;
     }
@@ -998,6 +1021,71 @@ body {
     }
     .invisible-square{
         width: 300px;
+    }
+    .text-gray-square1{
+        font-size: 35px;
+    }
+    .text-blue-square1 {
+        font-size: 35px;
+    }
+    .big-gray-square {
+        position: relative;
+        width: 1024px;
+        height: 690px;
+    }
+    .text-up {
+        font-size: 17px;
+    }
+    .product-item {
+        top: 195px;
+        left: 61px;
+        width: 295px;
+        height: 210px;
+    }
+    .texttop-productitem {
+        font-size: 35px;
+    }
+    .textdown-productitem {
+        font-size: 14px;
+    }
+    .scroll-item {
+        bottom: 210px;
+        left: 60px;
+        width: 280px;
+    }
+    .product {
+        width: 1024px;
+    }
+    .product-square {
+        width: 300px;
+        height: 400px;
+        top: 133px;
+        left: 519px;
+    }
+    .name-block {
+        font-size: 35px;
+    }
+    .brand-block {
+        top: 400px;
+        left: 20px;
+        padding: 0;
+    }
+    .brand-square {
+        width: 240px;
+        height: 185px;
+    }
+    .brand4square {
+        gap: 15px;
+        justify-content: normal;
+    }
+    .brand3square {
+        gap: 15px;
+        top: 150px;
+    }
+    .brand-square1 {
+        width: 325px;
+        height: 185px;
+        top: 150px;
     }
 }
 
