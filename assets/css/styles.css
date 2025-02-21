@@ -1245,7 +1245,7 @@ body {
         height: 155px;
     }
     .item-look-square {
-        left: 290px;
+        left: 355px;
         width: 330px;
     }
     .text-item-price {
@@ -1294,13 +1294,68 @@ body {
         font-size: 18px;
     }
     .rightbutton {
-        right: 38px;
+        right: 10px;
     }
     .brand-block {
         left: 0px;
     }
     .product-categories {
         top: 515px;
+        width: 90%;
+    }
+    .backgroundfooter svg {
+        width: 100%;
+    }
+
+    .textfirstcolumn1 {
+        font-size: 15px;
+    }
+    .arrowcolum {
+        margin-left: 145px;
+        left: 125px;
+    }
+    .textinthecolumn {
+        gap: 10px;
+    }
+    .first-column {
+        top: 635px;
+        left: 25px;
+        width: 145px;
+        height: 145px;
+    }
+    .column {
+        width: 110px;
+        height: 30px;
+    }
+    .bigtextcolumn {
+        font-size: 30px;
+    }
+    .bigtextcolumn1 {
+        font-size: 30px;
+    }
+    .second-column {
+        top: 479px;
+        left: 181px;
+    }
+    .third-column {
+        width: 310px;
+        top: 255px;
+        left: 441px;
+    }
+    .secondtextcolum {
+        margin-top: 36px;
+    }
+    .content-two-square {
+        margin-right: 10px;
+    }
+    .content-color-two-square {
+        margin-right: 10px;
+    }
+    .brand4square {
+        gap: 26px;
+    }
+    .brand3square {
+        gap: 22px
     }
 }
 @media screen and  (max-width: 789px){
@@ -1531,7 +1586,7 @@ body {
         display: none;
     }
     .item-look-square {
-        left: 40px;
+        left: 80px;
         top: 70px;
     }
     .leftbutton {
@@ -1541,7 +1596,66 @@ body {
         display: none;
     }
     .product-categories {
-        top: 420px;
+        top: 597px;
+    }
+    .backgroundfooter svg {
+        width: 115%;
+    }
+
+    /*.third-column {*/
+    /*    left: 240px;*/
+    /*}*/
+    /*.bigtextcolumn1 {*/
+    /*    font-size: 25px;*/
+    /*}*/
+    /*.secondtextcolum {*/
+    /*    font-size: 15px;*/
+    /*}*/
+
+    .column {
+        width: 60px;
+        height: 17px;
+        margin-bottom: 5px;
+    }
+    .textfirstcolumn1 {
+        font-size: 10px;
+    }
+    .textinthecolumn {
+        gap: 5px;
+    }
+    .first-column {
+        top: 630px;
+        left: 14px;
+        width: 145px
+    }
+    .second-column {
+        top: 461px;
+        left: 14px;
+    }
+    .bigtextcolumn {
+        font-size: 15px;
+    }
+    .second-column {
+        top: 482px;
+        left: 119px;
+    }
+    .bigtextcolumn1 {
+        font-size: 15px;
+    }
+    .third-column {
+        top: 258px;
+    }
+    .secondtextcolum {
+        font-size: 9px;
+    }
+    .arrowcolum {
+        width: 20px;
+        left: 40px;
+        margin-left: 139px;
+    }
+    .third-column {
+        left: 352px;
+        width: 200px;
     }
 }
 @media screen and  (max-width: 375px) {}
