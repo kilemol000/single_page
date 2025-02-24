@@ -876,8 +876,8 @@ body {
 .first-column {
     position: relative;
     width: 184px;
-    height: 227px;
-    top: 765px;
+    height: 138px;
+    top: 680px;
     left: 44px;
 }
 
@@ -966,9 +966,6 @@ body {
     .invisible-square{
         width: 350px;
     }
-    .backgroundfooter svg{
-        width: 1447px;
-    }
     .first-column{
         top: 746px;
         left: 41px;
@@ -979,7 +976,7 @@ body {
     }
     .third-column{
         top: 285px;
-        left: 944px;
+        left: 875px;
     }
     .arrowcolum{
         left: 35px;
@@ -1004,7 +1001,7 @@ body {
         width: 411px;
         height: 509px;
         top: 196px;
-        left: 673px;
+        left: 693px;
     }
     .brand-block {
         left: 10px;
@@ -1020,7 +1017,7 @@ body {
         justify-content: normal;
     }
     .product-categories {
-        width: 100%;
+        width: 94%;
     }
     .gray-square-shadow {
         margin-left: 140px;
@@ -1032,7 +1029,10 @@ body {
         right: 15px;
     }
     .backgroundfooter svg {
-        width: 106%;
+        width: 100%;
+    }
+    .backgroundfooter {
+        margin-top: -89px;
     }
 }
 
@@ -1149,20 +1149,41 @@ body {
         left: 10px;
     }
     .gray-square-shadow {
-        margin-left: 75px;
+        margin-left: 60px;
     }
     .item-look-square {
         left: 325px;
         width: 550px;
     }
+    .blue-square {
+        left: 2px;
+    }
+    .content-two-square {
+        margin-right: 10px;
+    }
+    .content-color-two-square {
+        margin-right: 10px;
+    }
     .text-item-price {
         left: 445px;
+        width: 50px;
     }
     .text-item-price1 {
         left: 245px;
+        width: 50px;
     }
     .text-item-price2 {
         left: 444px;
+        width: 50px;
+    }
+    .item-look {
+        width: 495px;
+    }
+    .item-look1 {
+        width: 495px;
+    }
+    .item-look2 {
+        width: 495px;
     }
     .rightbutton {
         right: 5px;
@@ -1172,30 +1193,56 @@ body {
     }
     .column {
         margin-bottom: 10px;
+        width: 110px;
+        height: 32px;
     }
     .first-column {
-        top: 738px;
-        left: 32px;
+        top: 733px;
+        left: 29px;
+        height: 170px;
     }
     .second-column {
-        top: 499px;
+        top: 492px;
+        left: 221px;
+        height: 180px;
     }
     .product-categories {
-        width: 98%;
+        width: 92%;
+    }
+    .lines {
+        right: 222px;
+    }
+    .lines1 {
+        right: 565px;
     }
     .item-look-square {
-        left: 385px;
+        left: 325px;
     }
     .textfirstcolumn1 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .third-column {
-        top: 273px;
-        left: 616px;
+        top: 268px;
+        left: 620px;
+        width: 399px;
+        height: 175px;
     }
     .secondtextcolum {
         font-size: 20px;
         margin-top: 65px;
+    }
+    .bigtextcolumn {
+        font-size: 29px;
+    }
+    .bigtextcolumn1 {
+        font-size: 29px;
+    }
+    .arrowcolum {
+        left: 360px;
+        margin-left: 0;
+    }
+    .backgroundfooter {
+        margin-top: 66px;
     }
 }
 @media screen and  (max-width: 820px){
@@ -1212,6 +1259,12 @@ body {
     }
 }
 @media screen and  (max-width: 768px){
+    .text-left-bord {
+        font-size: 50px;
+    }
+    .text-right-bord {
+        width: 350px;
+    }
     .product-square {
         width: 228px;
         height: 304px;
@@ -1245,7 +1298,7 @@ body {
         height: 155px;
     }
     .item-look-square {
-        left: 355px;
+        left: 315px;
         width: 330px;
     }
     .text-item-price {
@@ -1256,6 +1309,9 @@ body {
     }
     .text-item-price2 {
         display: none;
+    }
+    .gray-square-shadow {
+        margin-left: 45px;
     }
     .lines {
         display: none;
@@ -1294,56 +1350,63 @@ body {
         font-size: 18px;
     }
     .rightbutton {
-        right: 10px;
+        right: 5px;
+    }
+    .leftbutton {
+        left: 5px;
     }
     .brand-block {
-        left: 0px;
+        left: 0;
     }
     .product-categories {
         top: 515px;
         width: 90%;
     }
+    .backgroundfooter {
+        margin-top: 17px;
+    }
     .backgroundfooter svg {
         width: 100%;
     }
-
     .textfirstcolumn1 {
-        font-size: 15px;
+        font-size: 13px;
     }
     .arrowcolum {
         margin-left: 145px;
         left: 125px;
+        width: 30px;
     }
     .textinthecolumn {
         gap: 10px;
     }
     .first-column {
-        top: 635px;
-        left: 25px;
+        top: 540px;
+        left: 20px;
         width: 145px;
         height: 145px;
     }
     .column {
-        width: 110px;
-        height: 30px;
+        width: 90px;
+        height: 25px;
     }
     .bigtextcolumn {
-        font-size: 30px;
+        font-size: 25px;
     }
     .bigtextcolumn1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .second-column {
-        top: 479px;
+        top: 385px;
         left: 181px;
     }
     .third-column {
         width: 310px;
-        top: 255px;
-        left: 441px;
+        top: 205px;
+        left: 460px;
     }
     .secondtextcolum {
         margin-top: 36px;
+        font-size: 18px;
     }
     .content-two-square {
         margin-right: 10px;
@@ -1490,7 +1553,9 @@ body {
         left: 130px;
     }
     .text-right-bord {
-        left: 12px;
+        right: 0;
+        font-size: 17px;
+        width: 215px;
     }
     .left-part {
         font-size: 15px;
@@ -1544,7 +1609,7 @@ body {
         top: 235px;
     }
     .brand-block {
-        width: 480px;
+        width: 467px;
         top: 305px;
         height: 300px;
         left: 10px;
@@ -1560,33 +1625,16 @@ body {
     }
     .brand3square {
         top: 175px;
+        gap: 13px;
     }
     .name-block {
         font-size: 25px;
     }
-    /*.item-look-square {*/
-    /*    display:none;*/
-    /*}*/
-    /*.item-look {*/
-    /*    display: none;*/
-    /*}*/
-    /*.lines {*/
-    /*    display: none;*/
-    /*}*/
-    /*.item-look1 {*/
-    /*    display: none;*/
-    /*}*/
-    /*.lines1 {*/
-    /*    display: none;*/
-    /*}*/
-    /*.item-look2 {*/
-    /*    display: none;*/
-    /*}*/
     .gray-square-shadow {
         display: none;
     }
     .item-look-square {
-        left: 80px;
+        left: 35px;
         top: 70px;
     }
     .leftbutton {
@@ -1596,26 +1644,19 @@ body {
         display: none;
     }
     .product-categories {
-        top: 597px;
+        top: 385px;
+        width: 83%;
     }
     .backgroundfooter svg {
-        width: 115%;
+        width: 100%;
     }
-
-    /*.third-column {*/
-    /*    left: 240px;*/
-    /*}*/
-    /*.bigtextcolumn1 {*/
-    /*    font-size: 25px;*/
-    /*}*/
-    /*.secondtextcolum {*/
-    /*    font-size: 15px;*/
-    /*}*/
-
+    .backgroundfooter {
+        margin-top: 96px;
+    }
     .column {
         width: 60px;
         height: 17px;
-        margin-bottom: 5px;
+        margin-bottom: 0;
     }
     .textfirstcolumn1 {
         font-size: 10px;
@@ -1624,38 +1665,66 @@ body {
         gap: 5px;
     }
     .first-column {
-        top: 630px;
-        left: 14px;
-        width: 145px
-    }
-    .second-column {
-        top: 461px;
-        left: 14px;
+        top: 313px;
+        left: 13px;
+        width: 145px;
+        height: 75px;
     }
     .bigtextcolumn {
         font-size: 15px;
     }
     .second-column {
-        top: 482px;
-        left: 119px;
+        top: 231px;
+        left: 103px;
+        height: 114px;
     }
     .bigtextcolumn1 {
         font-size: 15px;
     }
-    .third-column {
-        top: 258px;
-    }
+
     .secondtextcolum {
         font-size: 9px;
+        margin-top: 25px;
     }
     .arrowcolum {
-        width: 20px;
         left: 40px;
         margin-left: 139px;
+        bottom: 28px;
+        width: 17px;
     }
     .third-column {
-        left: 352px;
+        top: 117px;
         width: 200px;
+        height: 100px;
+        left: 280px;
+    }
+    .text-left-bord {
+        font-size: 35px;
+    }
+    .brand4square {
+        gap: 20px;
     }
 }
-@media screen and  (max-width: 375px) {}
+@media screen and  (max-width: 376px) {
+    .text-gray-square1 {
+        font-size: 18px;
+        top: 45px;
+    }
+    .invisible-square1 {
+        display: none;
+    }
+    .text-blue-square1 {
+        font-size: 18px;
+        top: 45px;
+    }
+    .big-gray-square {
+        height: 305px;
+    }
+    .text-up {
+        top: 10px;
+    }
+    .texttop-productitem {
+        justify-content: normal;
+        font-size: 17px;
+    }
+}
